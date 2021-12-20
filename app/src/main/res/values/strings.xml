@@ -1,3 +1,54 @@
 <resources>
     <string name="app_name">Cinemas</string>
+    <string name="title_list">List Film</string>
+    <string name="title_detail">Detail Film</string>
+    <string name="title_form">Pendataan Film</string>
+
+    <string name="empty_title">Data Kosong</string>
+    <string name="empty_subtitle">Mohon tambahkan film baru</string>
+
+    <string name="err_title">Mohon masukkan nama film</string>
+    <string name="err_overview">Mohon masukkan sinopsis film</string>
+    <string name="err_duration">Mohon masukkan durasi film dalam menit</string>
+    <string name="err_age_rate">Pilihlah salah satu kategori usia</string>
+    <string name="err_rating">Rating film haruslah minimal 1 dan maksimal 10</string>
+
+    <string name="ex_title">Shang-Chi and the Legend of  the Ten Rings</string>
+    <string name="ex_overview">Duis ac augue ut lectus congue luctus. Vivamus eu lacus vestibulum, luctus ante dignissim, interdum orci. Donec in ullamcorper lacus, molestie accumsan tortor. Cras tristique leo nulla, quis condimentum nisi volutpat ut. Praesent non ipsum massa. Vestibulum ut consequat sapien. Curabitur mattis felis id dolor tristique lobortis. Donec mattis nunc ut ornare malesuada. Vivamus id congue ipsum.</string>
+    <string name="ex_duration">1h 53min</string>
+    <string name="ex_genres">Aksi, Petualangan, Fantasi</string>
+    <string name="ex_age_rate">13+</string>
+    <string name="ex_rating">8,9</string>
+    <string name="ex_subtitle_movie">13+ | 1h 53min | Aksi, Petualangan, Fantasi</string>
+    <string name="ex_title_dialog">Title</string>
+    <string name="ex_subtitle_dialog">lorem</string>
+    <string name="min_rating">0</string>
+    <string name="max_rating">10</string>
+
+    <string name="lbl_title">Nama Film</string>
+    <string name="lbl_overview">Sinopsis</string>
+    <string name="lbl_duration">Durasi</string>
+    <string name="lbl_age_rate">Kategori Usia</string>
+    <string name="lbl_genre">Genre</string>
+    <string name="lbl_rating">Rating</string>
+
+    <string name="kategori_usia">Kategori Usia :</string>
+    <string name="genre">Genre :</string>
+    <string name="durasi">Durasi :</string>
+
+    <string name="ph_title">Ex : Shang-Chi and the Legend of  the Ten Rings</string>
+    <string name="ph_overview">Jalan cerita secara singkat dari film ini</string>
+    <string name="ph_duration">Ex: 132</string>
+
+    <string name="simpan">Simpan</string>
+    <string name="batalkan">Batalkan</string>
+    <string name="hapus">Hapus</string>
+    <string name="simpan_film">Simpan Film</string>
+    <string name="ubah">Ubah</string>
+
+    <string name="genre_fantasi">Fantasi</string>
+    <string name="genre_romantis">Romantis</string>
+    <string name="genre_komedi">Komedi</string>
+    <string name="genre_aksi">Aksi</string>
+    <string name="genre_petualangan">Petualangan</string>
 </resources>

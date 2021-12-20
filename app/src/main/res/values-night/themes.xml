@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Cinemas" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Cinemas" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,5 +12,14 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="popupMenuStyle">@style/customPopUp</item>
+    </style>
+
+    <style name="customPopUp" parent="Widget.MaterialComponents.PopupMenu.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/bg_rounded_white</item>
+    </style>
+
+    <style name="DialogSecondary" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/bg_dialog_secondary</item>
     </style>
 </resources>
